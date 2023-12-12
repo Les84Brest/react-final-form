@@ -1,0 +1,10 @@
+$body-bg: #c1bdba;
+
+.app {
+    height: 100%;
+    width: 100%;
+    background: $body-bg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
