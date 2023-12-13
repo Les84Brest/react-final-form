@@ -10,28 +10,28 @@ export function SignUpTab(){
                     <label>
                         First Name<span className="req">*</span>
                     </label>
-                    <input type="text" required autoComplete="off"/>
+                    <input type="text" required />
                 </div>
 
                 <div className="field-wrap">
                     <label>
                         Last Name<span className="req">*</span>
                     </label>
-                    <input type="text" required autocomplete="off"/>
+                    <input type="text" required />
                 </div>
             </div>
             <div className="field-wrap">
                 <label>
                     Email Address<span className="req">*</span>
                 </label>
-                <input type="email" required autocomplete="off"/>
+                <input type="email" required />
             </div>
 
             <div className="field-wrap">
                 <label>
                     Set A Password<span className="req">*</span>
                 </label>
-                <input type="password" required autocomplete="off"/>
+                <input type="password" required />
             </div>
             <button type="submit" className="button button-block">Get Started</button>
 
